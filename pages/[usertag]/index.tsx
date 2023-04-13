@@ -8,9 +8,6 @@ export default function Index() {
   const products = productsData.map((obj, index) => (
     <SimpleProdCard key={index} data={obj} isowner={true} urlBase="usertag" />
   ));
-  const sample = () => {
-    return <div>hello</div>;
-  };
   return (
     <Wrapper>
       <UserHeaderComp />
@@ -99,9 +96,7 @@ export default function Index() {
         </div>
 
         <section className="border border-slate-200 w-full lg:w-10/12 xl:w-11/12 m-auto min-h-[20rem] mb-20 mt-12 md:mt-14 lg:mt-8">
-          <div className="flex flex-wrap">
-            {[...products]} {sample()}
-          </div>
+          <div className="flex flex-wrap">{...products}</div>
         </section>
       </main>
     </Wrapper>
