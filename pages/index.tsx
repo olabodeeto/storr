@@ -65,10 +65,16 @@ export default function Home() {
           </div>
           <section className=" px-4 xl:px-16 py-20 mt-10 min-h-[60vh] flex flex-col lg:flex-row gap-16">
             <div>
-              <img src="./images/img1.svg" alt="" />
+              <Image
+                width={100}
+                height={100}
+                src="./images/img1.svg"
+                alt=""
+                className="w-11/12 md:w-full m-auto"
+              />
             </div>
             <div className="w-full lg:w-6/12">
-              <div className="w-full min-h-[20vh] bg-[#F7F7F8] p-2 xl:p-5 xl:mt-20">
+              <div className="w-full min-h-[20vh] bg-slate-50 p-4 md:p-2 xl:p-5 xl:mt-20">
                 <h2
                   data-aos="fade-up"
                   data-aos-delay="20"
@@ -115,7 +121,7 @@ export default function Home() {
 
           <section className=" px-4 xl:px-16 py-20 mt-10 min-h-[60vh] flex flex-col lg:flex-row gap-16">
             <div className="w-full lg:w-6/12">
-              <div className="w-full min-h-[20vh] bg-[#F7F7F8] p-2 xl:p-5 xl:mt-20">
+              <div className="w-full min-h-[20vh] bg-slate-50 p-4 md:p-2 xl:p-5 xl:mt-20">
                 <h2
                   data-aos="fade-down"
                   data-aos-delay="30"
@@ -159,7 +165,7 @@ export default function Home() {
             </div>
 
             <div>
-              <img
+              <Image
                 data-aos="fade-up"
                 data-aos-delay="30"
                 data-aos-duration="800"
@@ -167,15 +173,18 @@ export default function Home() {
                 data-aos-mirror="true"
                 data-aos-once="true"
                 data-aos-anchor-placement="top-center"
+                width={100}
+                height={100}
                 src="./images/img2.svg"
                 alt=""
+                className="w-11/12 md:w-full m-auto"
               />
             </div>
           </section>
 
           <section className=" px-4 xl:px-16 py-20 mt-10  min-h-[60vh] flex flex-col lg:flex-row gap-16">
             <div>
-              <img
+              <Image
                 data-aos="zoom-in-down"
                 data-aos-delay="30"
                 data-aos-duration="1000"
@@ -183,12 +192,15 @@ export default function Home() {
                 data-aos-mirror="true"
                 data-aos-once="true"
                 data-aos-anchor-placement="top-center"
+                width={100}
+                height={100}
                 src="./images/img3.svg"
                 alt=""
+                className="w-11/12 md:w-full m-auto"
               />
             </div>
             <div className="w-full lg:w-6/12">
-              <div className="w-full min-h-[20vh] bg-[#F7F7F8] p-2 xl:p-5 xl:mt-20">
+              <div className="w-full min-h-[20vh] bg-slate-50 p-4 md:p-2 xl:p-5 xl:mt-20">
                 <h2
                   data-aos="fade-up"
                   data-aos-delay="20"
